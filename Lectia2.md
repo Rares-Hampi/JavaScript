@@ -43,7 +43,7 @@ let suma = aduna(5, 10);
 console.log(suma); // Afișează 15
 ```
 
-### 5.4. Funcții anonime și funcții de săgeată
+### 5.4. Anonymus functions și Arrow functions
 
 Anonymus functions nu au un nume și sunt adesea folosite ca expresii. Arrow functions sunt o sintaxă scurtată pentru anonymus functions, introdusă în ECMAScript 6.
 
