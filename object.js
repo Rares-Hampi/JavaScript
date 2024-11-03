@@ -4,35 +4,34 @@ let obj ={
     city: "New York"
 }
 
-console.log(obj)
+// console.log(obj)
 
-// accesarea unui element din obiect
+// // accesarea unui element din obiect
 
-console.log(obj.name)
+// console.log(obj.name)
 
-// modificarea unui element din obiect
+// // modificarea unui element din obiect
 
-obj.name = "Jane"
-console.log(obj)
+// obj.name = "Jane"
+// console.log(obj)
 
-// adaugarea unui element in obiect
+// // adaugarea unui element in obiect
 
-obj.job = "developer"
-console.log(obj)
+// obj.job = "developer"
+// console.log(obj)
 
-// stergerea unui element din obiect
+// // stergerea unui element din obiect
 
-delete obj.job
-console.log(obj)
+// delete obj.job
+// console.log(obj)
 
-// parcurgerea obiectului
+// // parcurgerea obiectului
 
-for (let key in obj) {
-    console.log(key, obj[key])
+// for (let key in obj) {
+//     console.log(key, obj[key])
+// }
 
-}
-
-console.log(obj['name'])
+// console.log(obj['name'])
 
 // parcurgerea obiectului cu Object.keys
 Object.keys(obj).forEach((key) => {
